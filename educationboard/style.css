@@ -1,0 +1,240 @@
+li{
+    list-style: none;
+}
+a{
+    margin-bottom: 0;
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+}
+p{
+    margin-bottom: 0;
+}
+.h2{
+    margin-bottom: 0;
+}
+.edu-wrapar{
+    background-color: #eeeeee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.edu-container{
+    width: 648px;
+    height: 600px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.edu-header{
+    display: flex;
+}
+.header-logo {
+    background-color: #eeeeee;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top{
+    background-color: #007814;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    border-bottom: 1px solid #95e17d;
+}
+.header-top h2{
+    color: #95e17d;
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: 700;
+
+
+}
+
+.header-main{
+    background-color: #007814;
+}
+.header-main h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 5px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0;
+}
+
+.header-footer {
+    background-image: url("./img/bar_bk.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.edu-footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #95e17d;
+    padding: 10px 15px 20px 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 10px;
+}
+.footre-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.edu-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.edu-body .result-form{
+   width: 460px;
+   border: 2px groove rgb(192, 192, 192);
+   padding: 30px 30px;
+}
+
+.form-fiedl-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-fiedl-row label {
+    width: 24%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+}
+.form-fiedl-row span{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-fiedl-row select , input{
+    width: 205px;
+    background-color: #F4F0F2;
+    border: 1px solid #999;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.form-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.form-btn button{
+    align-items: flex-start;
+    text-align: center;
+    border: 1px solid #111;
+    cursor: default;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+/* Results Page Css*/
+
+.edu-container-result {
+    width: 648px;
+    height: 635px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.edu-container-result .edu-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.student-result {
+    width: 100%;
+}
+.student-result h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0;
+}
+.student-result-tabel table {
+    width: 100%;
+}
+.student-result-tabel table tr td{
+    background-color: #f0f0f0;
+    border: 1px solid #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+.student-result-tabel table tr td:first-child{
+    width: 20%;
+   
+}
+.student-result-tabel table tr td:nth-child(2){
+    width: 20%;
+    
+}
+.student-result-tabel table tr td:nth-child(3){
+    width: 20%;
+   
+}
+.student-result-tabel table tr td:nth-child(4){
+    width: 40%;
+   
+}
+
+.student-grade-sheet table{
+    width: 100%;
+}
+
+.student-grade-sheet table thead {
+    background: #b2b6ba;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.student-grade-sheet table thead th {
+    border: 1px solid #fff;
+}
+.student-grade-sheet table td{
+    border: 1px solid #fff;
+}
+.student-grade-sheet table tbody tr:nth-child(even) td{
+    background-color: #dfe1e3;
+}
+.student-grade-sheet table tbody tr:nth-child(odd) td{
+    background-color: #eef0f2;
+}
+.btn_div{
+    text-align: center;
+    padding: 5px;
+}
+.btn_srarch_result{
+    background: red;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
