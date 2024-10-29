@@ -22,7 +22,7 @@ searchForm.onsubmit = (e) =>{
         );
         if (findData) {
             localStorage.setItem("StudentsfinData",JSON.stringify(findData));
-            window.location.href= ("/result.html")
+            window.location.href= ("./result.html")
         }else{
             alert("Not Data Found")
         }
