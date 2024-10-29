@@ -122,5 +122,5 @@ mart_sheet.innerHTML = `
 
 const backToHomePage = ()=>{
     localStorage.removeItem("StudentsfinData");
-    window.location.href = ("/index.html")
+    window.location.href = ("./index.html")
 }
